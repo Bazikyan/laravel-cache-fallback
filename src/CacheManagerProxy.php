@@ -45,7 +45,9 @@ class CacheManagerProxy extends CacheManager
      */
     public function getStoreName(RepositoryProxy $store): ?string
     {
-        return array_search($store, $this->stores, true) ?: null;
+        $stores = array_filter($this->stores, fn($repo) => $store === $repo || $store->getStore() == $repo->getStore());
+
+        return array_keys($stores)[0] ?? null;
     }
 
     /**
