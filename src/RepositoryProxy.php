@@ -78,7 +78,7 @@ class RepositoryProxy extends CacheRepository
      *
      * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint
      */
-    public function get($key, $default = null)
+    public function get($key, $default = null): mixed
     {
         try {
             return parent::get($key, $default);

@@ -24,7 +24,8 @@
     "php": "^8.2",
     "illuminate/cache": "^9.0",
     "illuminate/config": "^9.0",
-    "illuminate/support": "^9.0"
+    "illuminate/support": "^9.0",
+    "illuminate/container": "^9.0"
   },
   "require-dev": {
   },
