@@ -22,10 +22,10 @@
   ],
   "require": {
     "php": "^8.2",
-    "illuminate/cache": "^9.0",
-    "illuminate/config": "^9.0",
-    "illuminate/support": "^9.0",
-    "illuminate/container": "^9.0"
+    "illuminate/cache": "^10.0",
+    "illuminate/config": "^10.0",
+    "illuminate/support": "^10.0",
+    "illuminate/container": "^10.0"
   },
   "require-dev": {
   },
