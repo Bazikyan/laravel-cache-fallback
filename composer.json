@@ -22,10 +22,7 @@
   ],
   "require": {
     "php": "^8.2",
-    "illuminate/cache": "^10.0",
-    "illuminate/config": "^10.0",
-    "illuminate/support": "^10.0",
-    "illuminate/container": "^10.0"
+    "laravel/framework": "^10.0"
   },
   "require-dev": {
   },
