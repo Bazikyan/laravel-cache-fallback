@@ -1,7 +1,7 @@
 {
   "name": "bazikyan/laravel-cache-fallback",
   "description": "Allow Laravel cache connections to fallback to more stable drivers.",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "keywords": [
     "laravel",
     "cache",
