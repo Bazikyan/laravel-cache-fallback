@@ -53,11 +53,12 @@ class CacheManagerProxy extends CacheManager
     /**
      * Create a new cache repository with the given implementation using our {@see RepositoryProxy}.
      *
-     * @param Store $store The Laravel cache store instance.
+     * @param Store   $store  The Laravel cache store instance.
+     * @param array   $config The cache store configuration.
      *
      * @return RepositoryProxy The repository proxy.
      */
-    public function repository(Store $store): RepositoryProxy
+    public function repository(Store $store, array $config = []): RepositoryProxy
     {
         $repository = new RepositoryProxy($store, $this);
 
